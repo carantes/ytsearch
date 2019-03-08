@@ -1,0 +1,16 @@
+{
+  "emptyState": {
+    "container": {
+      "width": "67.5%",
+      "background": "#999999",
+      "color": "#fff",
+      "height": "80vh",
+      "postion": "relative"
+    },
+    "h1": {
+      "top":"50%",
+      "left": "28%",
+      "position": "absolute"
+    }
+  }
+}

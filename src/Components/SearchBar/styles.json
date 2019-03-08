@@ -1,0 +1,13 @@
+{
+  "container": {
+    "textAlign": "center",
+    "background": "#123456",
+    "padding": "35px"
+  },
+  "autoComplete": { 
+    "width": 400 
+  },
+  "searchButton": {
+    "marginLeft":"5px"
+  }
+}

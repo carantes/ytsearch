@@ -1,0 +1,16 @@
+{
+  "listItem": {
+    "padding": "5px",
+    "border": "1px solid #efefef",
+    "marginBottom": "3px",
+    "borderRadius": "5px",
+    "cursor": "pointer"
+  },
+  "wrapper": {
+    "padding": "2px"
+  },
+  "title": {
+    "marginLeft": "5px",
+    "color": "#444"
+  }
+}

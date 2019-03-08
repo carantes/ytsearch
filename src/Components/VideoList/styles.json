@@ -1,0 +1,13 @@
+{
+  "emptyList": {
+    "width": "40%"
+  },
+  "videoList": {
+    "listStyle":"none",
+    "width":"40%",
+    "padding": "5px",
+    "border": "1px solid #efefef",
+    "marginBottom": "3px",
+    "borderRadius": "5px"
+  }
+}
