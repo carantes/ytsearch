@@ -1,14 +1,14 @@
 import React from 'react';
-import styles from './styles.json';
+import styles from './VideoList.module.css';
 
 const VideoListItem = ({ video, onUserSelected }) => {
   const imageUrl = video.snippet.thumbnails.default.url;
   const videoTitle = video.snippet.title;
   return (
-    <li onClick={onUserSelected} style={styles.listItem}>
-      <div style={styles.wrapper}>
+    <li onClick={onUserSelected} className={styles.listItem}>
+      <div>
           <img src={ imageUrl } alt={videoTitle}/>
-          <span style={styles.title}>{videoTitle}</span>
+          <span >{videoTitle}</span>
       </div>
     </li>
   );

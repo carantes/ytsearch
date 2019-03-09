@@ -1,0 +1,12 @@
+.emptyList {
+  width: 60%;
+}
+
+.videoList {
+  list-style: none;
+  width: 60%;
+  padding: 4px;
+  border: 1 solid #efefef;
+  margin-bottom: 3px;
+  border-radius: 5px;
+}

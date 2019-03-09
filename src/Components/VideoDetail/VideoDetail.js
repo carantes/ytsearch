@@ -1,10 +1,10 @@
 import React from 'react';
 import { Icon } from "antd";
-import styles from './styles.json';
+import styles from './VideoDetail.module.css';
 
 const EmptyState = () => (
-  <div style={styles.emptyState.container}>
-    <h1 style={styles.emptyState.h1}><Icon type={"youtube"}/></h1>
+  <div className={styles.emptyState}>
+    <h1><Icon type={"youtube"}/></h1>
   </div>
 )
 

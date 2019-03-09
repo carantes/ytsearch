@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import PropTypes from 'prop-types'
 import YTSearch from 'youtube-api-search';
 import { notification } from 'antd';
-import './App.css'
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 let lastTimeoutId;
@@ -72,7 +71,7 @@ class HomePageWrapper extends Component {
     const { videos, selectedVideo } = this.state;
     
     return (
-      <div className="App">
+      <Fragment>
         {
           render({
             videos: videos,
@@ -82,7 +81,7 @@ class HomePageWrapper extends Component {
             onVideoSelect: this.onVideoSelect
           })
         }
-      </div>
+      </Fragment>
     )
   }
 }

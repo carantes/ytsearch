@@ -1,11 +1,11 @@
 import React from 'react';
 import { List } from 'antd';
 import VideoListItem from '../VideoListItem';
-import styles from './styles.json';
+import styles from './VideoList.module.css';
 
 const EmptyList = () => (
   <List
-    style={styles.emptyList}
+    className={styles.emptyList}
     size={"large"}
     header={<div>Video Suggestions</div>}
     bordered
@@ -20,7 +20,7 @@ const VideoList = ({ videos, onVideoSelect }) => {
   }
   else {
     return (
-      <ul style={styles.videoList}>
+      <ul className={styles.videoList}>
         {
           videos.map((video, index) => (
             <VideoListItem

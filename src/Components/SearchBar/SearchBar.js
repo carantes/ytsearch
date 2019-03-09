@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import  { AutoComplete, Button, Icon } from 'antd';
-import styles from './styles.json'
+import styles from './SearchBar.module.css';
 const Option = AutoComplete.Option;
 
 class SearchBar extends Component {
@@ -22,17 +22,17 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div style={styles.container}>
+      <div className={styles.container}>
         <AutoComplete
           size={"large"}
-          style={styles.autoComplete}
+          className={styles.autocomplete}
           onSelect={this.onSelect}
           onChange={this.props.onChange}
           placeholder="Search here"
         >
           { this.state.videos.map((video, index)  => <Option key={ index } >{ video.snippet.title }</Option> ) }
         </AutoComplete>
-        <Button style={styles.searchButton} size={"large"}>
+        <Button className={styles.button} size={"large"}>
           <Icon type={"search"}/>
         </Button>
       </div>

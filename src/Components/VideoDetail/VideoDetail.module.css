@@ -1,0 +1,13 @@
+.emptyState {
+  width: 67.5%;
+  background-color: #999;
+  color: #fff;
+  height: 80vh;
+  position: relative;
+}
+
+.emptyState h1 {
+  top: 45%;
+  left: 45%;
+  position: absolute;
+}

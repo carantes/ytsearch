@@ -1,0 +1,16 @@
+.listItem {
+  padding: 5px;
+  border: 1px solid #efefef;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.listItem div {
+  padding: 4px;
+}
+
+.listItem div > span {
+  margin-left: 5px;
+  color: #444;
+}

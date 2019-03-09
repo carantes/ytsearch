@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Icon, notification } from 'antd';
 import dotenv from 'dotenv';
 import HomePage from './Containers/HomePage';
+import './App.css';
 
 dotenv.config();
 
